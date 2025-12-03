@@ -4,9 +4,9 @@ public class NarrowingExample {
 
 	public static void main(String[] args) {
 		
-		float price = 99.99f;
+		double price = 10.0;
 		
-		double roundedPrice = (double) price; // float to double
+		int roundedPrice = (int) price; // double to int
 		
 		System.out.println("Rounded price: " + roundedPrice);
 

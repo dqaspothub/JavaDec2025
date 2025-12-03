@@ -8,11 +8,13 @@ public class IncrementOperatorExample {
 
 		//post-increment
 		if(num1++ == 5){
+
 			System.out.println("First if block");
 			System.out.println("Value of num1: "+num1);
 		}
 		//pre-increment
 		if(++num2 == 6){
+
 			System.out.println("Second if block");
 			System.out.println("Value of num2: "+num2);
 		}

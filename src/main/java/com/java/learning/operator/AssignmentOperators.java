@@ -8,6 +8,7 @@ public class AssignmentOperators {
         // Simple assignment
         System.out.println("Original value: " + num); // 10
 
+
         // Compound assignment operators
         num += 5;  // num = num + 5
         System.out.println("After += 5: " + num);    // 15
