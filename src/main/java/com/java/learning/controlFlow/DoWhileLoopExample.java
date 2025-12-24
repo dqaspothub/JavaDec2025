@@ -6,7 +6,7 @@ public class DoWhileLoopExample {
 
 		int tries = 1;
 
-		boolean wantToPlayAgain = false;
+		boolean wantToPlayAgain = true;
 
 		do {
 		    System.out.println("Playing the game. Try #" + tries);

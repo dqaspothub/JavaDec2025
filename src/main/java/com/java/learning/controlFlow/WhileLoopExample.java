@@ -4,7 +4,10 @@ public class WhileLoopExample {
 
 	public static void main(String[] args) {
 
-
+	/*	while (condition) {
+			// Code block to be executed repeatedly
+		}
+*/
 		int timer = 5;
 
 		while (timer >= 0) {

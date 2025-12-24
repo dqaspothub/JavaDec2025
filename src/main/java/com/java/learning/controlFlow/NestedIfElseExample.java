@@ -3,15 +3,22 @@ package com.java.learning.controlFlow;
 import java.util.Scanner;
 
 public class NestedIfElseExample {
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your age: ");
+
         int age = scanner.nextInt();
 
+        System.out.println("The entered age of a person " + age);
+
         System.out.print("Are you a student? (yes/no): ");
+
         String studentStatus = scanner.next().toLowerCase();
+
+        System.out.println("The entered student status is " +studentStatus );
 
         // Outer if-else for age check
         if (age >= 18) {

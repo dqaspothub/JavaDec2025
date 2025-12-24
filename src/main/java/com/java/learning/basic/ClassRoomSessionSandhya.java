@@ -1,4 +1,4 @@
-package com.java.learning.controlFlow;
+package com.java.learning.basic;
 
 public class ClassRoomSessionSandhya {
 
@@ -9,12 +9,12 @@ public class ClassRoomSessionSandhya {
             System.out.println("Brushing... Seconds left: " + timer);
             timer--;
         }*/
-
-        int i = 1;
-        while(i<=5){
-            System.out.println("The output is " + i);
-            i++;
-        }
+//
+//        int i = 1;
+//        while(i<=5){
+//            System.out.println("The output is " + i);
+//            i++;
+//        }
 
        /* int tries = 1;
 
@@ -34,7 +34,7 @@ public class ClassRoomSessionSandhya {
 
         System.out.println("The card is blocked");*/
 
-        String status = "PASS";
+       /* String status = "PASS";
 
         switch (status) {
             case "PASS":
@@ -50,6 +50,29 @@ public class ClassRoomSessionSandhya {
                 break;
 
 
-        }
-}
+        }*/
+        int a = 10;
+        int b = 12;
+
+        System.out.println("The sum of two numbers " + (a+b));
+        System.out.println("The sub of two numbers" + (a-b));
+        System.out.println("The multi of two numbers" + (a*b));
+        System.out.println("The division of two number" + (a/b));
+        System.out.println("The module of two numbers" + (a%b));
+
+        int result = (a>b) ? a : b;
+        System.out.println(result);
+
+        int a1 = 10;
+        int a2 = 10;
+
+       String s1 = "Sandhya";
+
+       String s2 = "Sandhya";//literal way of creation
+
+       String age = new String("28"); // Using new keyword
+
+        String s3 = new String("28"); // Using new keyword
+
+    }
 }

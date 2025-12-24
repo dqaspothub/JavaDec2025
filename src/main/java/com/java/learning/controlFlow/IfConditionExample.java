@@ -2,7 +2,7 @@ package com.java.learning.controlFlow;
 
 public class IfConditionExample {
 
-	static boolean isRaining = false;
+	static boolean isRaining = true;
 
 	public static void main(String[] args) {
 
